@@ -1,11 +1,14 @@
 .main {
+  width: 390px;
+  max-width: 390px;
   &__banner_and_timer {
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 1rem;
-    position: absolute;
+    position: relative;
     color: white;
+    
   }
   &__banner_timer {
     display: flex;
@@ -13,14 +16,16 @@
     align-items: center;
     justify-content: center;
     background: #f19d2f;
-    position: relative;
-    bottom: 6rem;
+    position: absolute;
+    bottom: 3rem;
     border-radius: 1rem;
-    padding: 0.2rem;
+    padding: 0.3rem;
     width: 103px;
+    height: 58px;
     &_text {
       font-size: 10.6px;
       text-transform: uppercase;
+      letter-spacing: 0.16px;
     }
     &_timer {
       font-size: 21.25px;
@@ -32,11 +37,13 @@
     align-items: center;
     justify-content: center;
     background: #37d997;
-    position: relative;
-    bottom: 6rem;
+    position: absolute;
+    bottom: 3rem;
+    left: 16rem;
     border-radius: 1rem;
     padding: 0.2rem;
     width: 116px;
+    height: 58px;
     &_crossed {
       font-size: 18px;
       text-decoration: line-through;
@@ -56,6 +63,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-top: -2rem;
       &_selling {
         color: #37d997;
       }

@@ -80,12 +80,14 @@ select {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  color: #2C2B31;
+  color: #2c2b31;
   text-align: center;
   font-size: 12.5px;
+  width: 390px;
+  max-width: 390px;
 }
 .header__offer__block {
-  background: #F19D2F;
+  background: #f19d2f;
   padding: 0.5rem;
 }
 .header__offer__block img {
@@ -94,7 +96,7 @@ select {
   margin-top: 2px;
 }
 .header__logo__block {
-  background: #FFD1AC;
+  background: #ffd1ac;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,6 +109,10 @@ select {
   padding: 1rem;
 }
 
+.main {
+  width: 390px;
+  max-width: 390px;
+}
 .main__banner_and_timer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,7 +122,7 @@ select {
           justify-content: space-between;
   width: 100%;
   padding: 1rem;
-  position: absolute;
+  position: relative;
   color: white;
 }
 .main__banner_timer {
@@ -133,16 +139,18 @@ select {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #F19D2F;
-  position: relative;
-  bottom: 6rem;
+  background: #f19d2f;
+  position: absolute;
+  bottom: 3rem;
   border-radius: 1rem;
-  padding: 0.2rem;
+  padding: 0.3rem;
   width: 103px;
+  height: 58px;
 }
 .main__banner_timer_text {
   font-size: 10.6px;
   text-transform: uppercase;
+  letter-spacing: 0.16px;
 }
 .main__banner_timer_timer {
   font-size: 21.25px;
@@ -161,17 +169,19 @@ select {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #37D997;
-  position: relative;
-  bottom: 6rem;
+  background: #37d997;
+  position: absolute;
+  bottom: 3rem;
+  left: 16rem;
   border-radius: 1rem;
   padding: 0.2rem;
   width: 116px;
+  height: 58px;
 }
 .main__banner_price_crossed {
   font-size: 18px;
   text-decoration: line-through;
-  text-decoration-color: #E27500;
+  text-decoration-color: #e27500;
   text-decoration-thickness: 3.5px;
 }
 .main__banner_price_main {
@@ -182,7 +192,7 @@ select {
 }
 .main__infoblock__about {
   font-weight: 400;
-  color: #2C2B31;
+  color: #2c2b31;
   font-size: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -193,9 +203,10 @@ select {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: -2rem;
 }
 .main__infoblock__about_selling {
-  color: #37D997;
+  color: #37d997;
 }
 .main__infoblock__title {
   text-transform: uppercase;
@@ -348,7 +359,7 @@ select {
   text-align: center;
 }
 .main__infoblock__button button {
-  background: #37D997;
+  background: #37d997;
   color: white;
   text-transform: uppercase;
   width: 356px;
@@ -381,7 +392,7 @@ body {
   font-family: "Gotham Pro";
   font-style: normal;
   font-weight: 600;
-  background: #F0F0F0;
+  background: #f0f0f0;
   font-size: 10px;
-  color: #2C2B31;
+  color: #2c2b31;
 }
