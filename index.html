@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="scss/style.css" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>slippers</title>
+  </head>
+  <body>
+    <!-- --------header-------- -->
+    <header class="header">
+      <div class="header__offer__block">
+        <img
+          src="./img/icons8-south-africa-48.png"
+          alt="icons8-south-africa"
+          width="14px"
+          height="14px"
+        />
+        SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA
+        <img
+          src="./img/icons8-south-africa-48.png"
+          width="14px"
+          height="14px"
+          alt="icons8-south-africa"
+        />
+      </div>
+      <div class="header__logo__block">
+        <img
+          class="header__logo__block_img"
+          src="./img/logo.svg"
+          alt="logo-slippers"
+        />
+      </div>
+    </header>
+    <!-- --------main-------- -->
+    <main class="main">
+      <div class="main__banner">
+        <div class="main__banner_img">
+          <img src="./img/banner.png" alt="banner-slippers" />
+        </div>
+
+        <div class="main__banner_and_timer">
+          <div class="main__banner_timer">
+            <div class="main__banner_timer_text">Limited offer</div>
+            <div class="main__banner_timer_timer">
+              <my-timer
+                id="elem"
+                hour="numeric"
+                minute="numeric"
+                second="numeric"
+              ></my-timer>
+            </div>
+          </div>
+          <div class="main__banner_price">
+            <div class="main__banner_price_crossed">R 250.00</div>
+            <div class="main__banner_price_main">R 160.00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main__infoblock">
+        <div class="main__infoblock__about">
+          <div class="main__infoblock__about_quality">Excellent 4.8/5</div>
+          <div class="main__infoblock__about_company">
+            <img src="./img/trustpilot.svg" alt="trustpilot" />
+          </div>
+          <div class="main__infoblock__about_selling">best selling</div>
+        </div>
+
+        <div class="main__infoblock__title">Orthopedic Slippers</div>
+
+        <div class="main__infoblock__slider lSSlideWrapper">
+          <ul id="lightSlider">
+            <li data-thumb="./img/BIG PHOTOS1 small.png" class="slider_img">
+              <img src="./img/BIG PHOTOS1.png" />
+            </li>
+            <li data-thumb="./img/orange small.png" class="slider_img">
+              <img src="./img/orange.png" />
+            </li>
+            <li data-thumb="./img/pink small.png" class="slider_img">
+              <img src="./img/pink.png" />
+            </li>
+            <li data-thumb="./img/yellow small.png" class="slider_img">
+              <img src="./img/yellow.png" />
+            </li>
+          </ul>
+        </div>
+
+        <div class="main__infoblock__text">
+          <div class="main__infoblock__text_delivery">
+            <span>Fast Delivery:</span> 2-4 days from SA
+            <img
+              src="./img/icons8-south-africa-48.png"
+              alt="icons8-south-africa"
+              width="14px"
+              height="14px"
+            />
+          </div>
+          <div class="main__infoblock__text_instock">
+            <span>In Stock:</span> Shipping from Johannesburg
+            <img
+              src="./img/icons8-south-africa-48.png"
+              alt="icons8-south-africa"
+              width="14px"
+              height="14px"
+            />
+          </div>
+          <div class="main__infoblock__text_rating ratio">
+            <input type="radio" class="star-ratio" name="rt" />
+            <input type="radio" class="star-ratio" name="rt" />
+            <input type="radio" class="star-ratio" name="rt" />
+            <input type="radio" class="star-ratio" name="rt" />
+            <input type="radio" class="star-ratio" name="rt" />
+            <span class="star-ratio-count">(10)</span>
+          </div>
+        </div>
+
+        <div class="main__infoblock__options">
+          <div class="main__infoblock__options_color">
+            <div class="main__infoblock__options_text">color</div>
+            <div class="main__infoblock__options_option">
+              <select size="1">
+                <option>black</option>
+                <option>orange</option>
+                <option>pink</option>
+                <option>yellow</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="main__infoblock__options_size">
+            <div class="main__infoblock__options_text">size</div>
+            <div class="main__infoblock__options_option">
+              <select size="1">
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="main__infoblock__button">
+          <a href="https://www.youtube.com/"><button>buy now</button></a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

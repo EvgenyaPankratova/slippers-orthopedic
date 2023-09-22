@@ -1,0 +1,33 @@
+@import "_nullstyle";
+@import "_header";
+@import "_main";
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/gothampro.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/gothampro_light.ttf") format("truetype");
+  font-style: light;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/gothampro_bold.ttf") format("truetype");
+  font-style: bold;
+  font-weight: 700;
+}
+
+body {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 600;
+  background: #f0f0f0;
+  font-size: 10px;
+  color: #2c2b31;
+}
